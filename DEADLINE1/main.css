@@ -1,0 +1,150 @@
+/*menu*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 25px;
+    border: 0;
+    font-size: 100%;
+}
+
+
+/* menu */
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #73726c;
+    margin-left: 5px;
+    border-bottom: 1px #a2a2a2 solid;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding-left: 25px;
+    padding-top: 16px;
+}
+
+.menu-item:hover {
+    color: black;
+}
+
+.center {
+    justify-content: space-around;
+}
+
+
+/* menu */
+
+
+/* ======================================================== */
+
+
+/* bettween */
+
+.between {
+    display: flex;
+    height: 117px;
+    padding-top: 30px;
+    /* padding-left: 30px; */
+}
+
+.between-left {
+    display: block;
+    width: 2%;
+    height: 90px;
+}
+
+.between-right {
+    height: 90px;
+    width: 100%;
+}
+
+
+/* between */
+
+
+/* ======================================================== */
+
+
+/* tryfree */
+
+.tryfree {
+    margin-top: 30px;
+    width: 1290px;
+    height: 210px;
+    display: flex;
+    padding-top: 30px;
+    /* margin: 30px; */
+    border-radius: 3px;
+    background: #FBFBF8;
+}
+
+.tryfree-left {
+    padding-left: 25px;
+    width: 370px;
+    height: 170px;
+}
+
+.not-sure-1 {
+    font-size: 15px;
+    color: #3C3B37;
+    height: 50px;
+    border: 1px solid #DCDACB;
+    border-radius: 5px;
+    display: flex;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.text-notsure {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.free-courses {
+    display: block;
+    width: 370px;
+    padding-left: 60px;
+}
+
+.free-courses-1 {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.paid-courses {
+    width: 370px;
+    height: 170px;
+}
+
+.paid-courses-1 {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.text {
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.button {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+    font-size: 15px;
+    color: #0F7C90;
+    border: 1px solid #0F7C90;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: #094C59;
+    cursor: pointer;
+    border: 1px solid #094C59;
+}
